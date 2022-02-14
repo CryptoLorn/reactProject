@@ -6,7 +6,7 @@ import MovieCard from "../MovieCard/MovieCard";
 import Paginator from "../Pagination/Paginator";
 import "./MoviesList.css";
 
-const MoviesList = ({items, onFilmClick}) => {
+const MoviesList = ({onFilmClick}) => {
     const {moviesPage, currentPage, status} = useSelector(state => state['moviesReducer']);
 
     const dispatch = useDispatch();

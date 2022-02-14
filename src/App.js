@@ -7,6 +7,7 @@ import MovieDetailsPage from "./pages/MovieDetailsPage/MovieDetailsPage";
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <Routes>

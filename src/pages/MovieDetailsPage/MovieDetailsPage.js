@@ -25,6 +25,7 @@ const MovieDetailsPage = () => {
                     <div><img src={`${baseURL}${filmDetails.poster_path}`} alt={`${filmDetails.title}`}/></div>
                     <div className={'info'}>
                         <div><h2>{filmDetails.original_title}</h2></div>
+                        <hr/>
                         <div><span><b>Release date:</b> {filmDetails.release_date}</span></div>
                         {filmDetails.genres && <div><span><b>Genres:</b></span> {filmDetails.genres.map(value => <span
                             key={value.id}> {value.name},</span>)}</div>}
