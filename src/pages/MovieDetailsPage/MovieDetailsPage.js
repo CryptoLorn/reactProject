@@ -23,7 +23,6 @@ const MovieDetailsPage = () => {
             <div className={'wrapper'}>
                 <div className={'movie_details'}>
                     <div><img src={`${baseURL}${filmDetails.poster_path}`} alt={`${filmDetails.title}`}/></div>
-
                     <div className={'info'}>
                         <div><h2>{filmDetails.original_title}</h2></div>
                         <div><span><b>Release date:</b> {filmDetails.release_date}</span></div>
