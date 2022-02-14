@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movies_block {
+    width: 80%;
+    margin-top: 20px;
+}

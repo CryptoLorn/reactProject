@@ -1,0 +1,14 @@
+.pages {
+    display: flex;
+}
+
+.pages a {
+    color: darkcyan;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.pages a:hover {
+    cursor: pointer;
+    color: white;
+}
