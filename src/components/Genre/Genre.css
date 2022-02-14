@@ -1,0 +1,15 @@
+.genre {
+    border: 1px solid black;
+    width: 200px;
+    background-color: darkcyan;
+}
+
+.genre:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+    color: silver;
+}
+
+.genre li {
+    list-style: none;
+}

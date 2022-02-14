@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    height: 50px;
+    background-color: darkcyan;
+    box-shadow: 0 5px 5px -5px #333;
+    padding: 20px;
+}
+
+.header span {
+    font-size: 36px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    box-shadow: 0 0 5px 2px;
+    border-radius: 10px;
+    width: 210px;
+    text-align: center;
+}
+
+.header form button {
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+.login {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333333;
+}
+
+.login:hover {
+    cursor: pointer;
+    color: white;
+}

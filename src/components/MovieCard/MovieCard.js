@@ -1,9 +1,9 @@
 import React from 'react';
 
 import baseURL from "../../configs/poster.urls";
-import "./Movie.css";
+import "./MovieCard.css";
 
-const Movie = ({movie}) => {
+const MovieCard = ({movie}) => {
     const {poster_path, title, vote_average, release_date} = movie;
 
     return (
@@ -24,4 +24,4 @@ const Movie = ({movie}) => {
     );
 };
 
-export default Movie;
+export default MovieCard;

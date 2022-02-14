@@ -1,0 +1,29 @@
+.wrapper {
+    margin-left: 2%;
+}
+
+.movie_details {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.info {
+    color: #78a8a8;
+}
+
+.info span {
+    font-size: 18px;
+}
+
+.description {
+    color: #78a8a8;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.description span {
+    font-size: 18px;
+}
